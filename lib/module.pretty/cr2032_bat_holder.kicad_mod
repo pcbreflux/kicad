@@ -1,0 +1,18 @@
+(module cr2032_bat_holder (layer F.Cu) (tedit 5794F60F)
+  (fp_text reference BT1 (at 0 9.8) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Battery (at -0.2 -10) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd rect (at 13 0.2) (size 3 6) (layers F.Cu F.Paste F.Mask)
+    (clearance 1))
+  (pad 1 smd rect (at -13 0) (size 3 6) (layers F.Cu F.Paste F.Mask)
+    (clearance 1))
+  (pad 2 smd circle (at 0 0) (size 17.8 17.8) (layers F.Cu F.Paste F.Mask))
+  (model ${KIPRJMOD}/lib/packages3d/walter/battery_holders/keystone_3000.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1.5 1.5 1.5))
+    (rotate (xyz 0 0 0))
+  )
+)

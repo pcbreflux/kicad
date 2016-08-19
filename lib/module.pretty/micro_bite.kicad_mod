@@ -1,0 +1,13 @@
+(module micro_bite (layer F.Cu) (tedit 5794FA0D)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 0.127 0.127) (thickness 0.01)))
+  )
+  (fp_text value micro_bite (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 0.127 0.127) (thickness 0.01)))
+  )
+  (pad "" np_thru_hole circle (at -0.6 0) (size 0.3 0.3) (drill 0.3) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at 0.6 0) (size 0.3 0.3) (drill 0.3) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at 0.3 0) (size 0.3 0.3) (drill 0.3) (layers *.Cu *.SilkS *.Mask))
+  (pad "" np_thru_hole circle (at 0 0) (size 0.3 0.3) (drill 0.3) (layers *.Cu *.SilkS *.Mask))
+  (pad "" np_thru_hole circle (at -0.3 0) (size 0.3 0.3) (drill 0.3) (layers *.Cu *.Mask))
+)
