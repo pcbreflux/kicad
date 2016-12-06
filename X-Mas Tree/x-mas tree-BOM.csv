@@ -1,0 +1,15 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"U2";"sop-16";1;"4017";;;
+2;"REF**";"pcbreflux_logo";1;"pcbreflux_logo";;;
+3;"REF***";"OSHW-Logo_5.7x6mm_SilkScreen";1;"OSHW-Logo_5.7x6mm_SilkScreen";;;
+4;"REF***";"KiCad-Logo_6mm_SilkScreen";1;"KiCad-Logo_6mm_SilkScreen";;;
+5;"BT1";"cr2032_bat_holder";1;"Battery";;;
+6;"REF**,REF**,REF**,REF**,REF**,REF**,REF**,REF**,REF**,REF**,REF**,REF**,REF**,REF**,REF**,REF**,REF**,REF**,REF**";"Via-0.6mm";19;"Via-0.6mm";;;
+7;"hole_3mm";"hole_3mm";1;"VAL**";;;
+8;"C1,C2,C4,C3";"c_0603";4;"1000n";;;
+9;"D1,D2,D3,D4,D5,D6,D7,D8,D9,D10";"LED_0603";10;"LED";;;
+10;"R1";"r_0603";1;"680k";;;
+11;"R2";"r_0603";1;"10k";;;
+12;"R3";"r_0603";1;"220R";;;
+13;"U1";"so-8";1;"TS555";;;
+14;"REF**,REF**";"micro_bite";2;"micro_bite";;;

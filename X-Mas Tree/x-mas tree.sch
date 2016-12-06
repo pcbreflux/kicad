@@ -1,0 +1,446 @@
+EESchema Schematic File Version 2
+LIBS:x-mas tree-rescue
+LIBS:module
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:x-mas tree-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L NE555 U1
+U 1 1 57F4B94E
+P 2250 2550
+F 0 "U1" H 1950 2900 50  0000 C CNN
+F 1 "TS555" H 2450 2900 50  0000 C CNN
+F 2 "w_smd_dil:so-8" H 2250 2200 50  0000 C CNN
+F 3 "" H 2250 2550 50  0000 C CNN
+	1    2250 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4017 U2
+U 1 1 57F4B9B0
+P 4650 2900
+F 0 "U2" H 4650 3716 50  0000 C CNN
+F 1 "4017" H 4650 3625 50  0000 C CNN
+F 2 "module:sop-16" H 4650 2900 60  0001 C CNN
+F 3 "" H 4650 2900 60  0001 C CNN
+	1    4650 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED-RESCUE-x-mas_tree D1
+U 1 1 57F4BA48
+P 5750 3550
+F 0 "D1" V 5796 3442 50  0000 R CNN
+F 1 "LED" V 5705 3442 50  0000 R CNN
+F 2 "LEDs:LED_0603" H 5750 3550 50  0000 C CNN
+F 3 "" H 5750 3550 50  0000 C CNN
+	1    5750 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-RESCUE-x-mas_tree D2
+U 1 1 57F4BC3C
+P 5900 3550
+F 0 "D2" V 5946 3442 50  0000 R CNN
+F 1 "LED" V 5855 3442 50  0000 R CNN
+F 2 "LEDs:LED_0603" H 5900 3550 50  0000 C CNN
+F 3 "" H 5900 3550 50  0000 C CNN
+	1    5900 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-RESCUE-x-mas_tree D3
+U 1 1 57F4BC5E
+P 6050 3550
+F 0 "D3" V 6096 3442 50  0000 R CNN
+F 1 "LED" V 6005 3442 50  0000 R CNN
+F 2 "LEDs:LED_0603" H 6050 3550 50  0000 C CNN
+F 3 "" H 6050 3550 50  0000 C CNN
+	1    6050 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-RESCUE-x-mas_tree D4
+U 1 1 57F4BC85
+P 6200 3550
+F 0 "D4" V 6246 3442 50  0000 R CNN
+F 1 "LED" V 6155 3442 50  0000 R CNN
+F 2 "LEDs:LED_0603" H 6200 3550 50  0000 C CNN
+F 3 "" H 6200 3550 50  0000 C CNN
+	1    6200 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-RESCUE-x-mas_tree D5
+U 1 1 57F4BD09
+P 6350 3550
+F 0 "D5" V 6396 3442 50  0000 R CNN
+F 1 "LED" V 6305 3442 50  0000 R CNN
+F 2 "LEDs:LED_0603" H 6350 3550 50  0000 C CNN
+F 3 "" H 6350 3550 50  0000 C CNN
+	1    6350 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-RESCUE-x-mas_tree D6
+U 1 1 57F4BD8C
+P 6500 3550
+F 0 "D6" V 6546 3442 50  0000 R CNN
+F 1 "LED" V 6455 3442 50  0000 R CNN
+F 2 "LEDs:LED_0603" H 6500 3550 50  0000 C CNN
+F 3 "" H 6500 3550 50  0000 C CNN
+	1    6500 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-RESCUE-x-mas_tree D7
+U 1 1 57F4BE1C
+P 6650 3550
+F 0 "D7" V 6696 3442 50  0000 R CNN
+F 1 "LED" V 6605 3442 50  0000 R CNN
+F 2 "LEDs:LED_0603" H 6650 3550 50  0000 C CNN
+F 3 "" H 6650 3550 50  0000 C CNN
+	1    6650 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-RESCUE-x-mas_tree D8
+U 1 1 57F4BFCD
+P 6800 3550
+F 0 "D8" V 6846 3442 50  0000 R CNN
+F 1 "LED" V 6755 3442 50  0000 R CNN
+F 2 "LEDs:LED_0603" H 6800 3550 50  0000 C CNN
+F 3 "" H 6800 3550 50  0000 C CNN
+	1    6800 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-RESCUE-x-mas_tree D9
+U 1 1 57F4C014
+P 6950 3550
+F 0 "D9" V 6996 3442 50  0000 R CNN
+F 1 "LED" V 6905 3442 50  0000 R CNN
+F 2 "LEDs:LED_0603" H 6950 3550 50  0000 C CNN
+F 3 "" H 6950 3550 50  0000 C CNN
+	1    6950 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-RESCUE-x-mas_tree D10
+U 1 1 57F4C057
+P 7100 3550
+F 0 "D10" V 7146 3442 50  0000 R CNN
+F 1 "LED" V 7055 3442 50  0000 R CNN
+F 2 "LEDs:LED_0603" H 7100 3550 50  0000 C CNN
+F 3 "" H 7100 3550 50  0000 C CNN
+	1    7100 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R3
+U 1 1 57F4C0C2
+P 6650 4150
+F 0 "R3" H 6720 4196 50  0000 L CNN
+F 1 "220R" H 6720 4105 50  0000 L CNN
+F 2 "w_smd_resistors:r_0603" V 6580 4150 50  0000 C CNN
+F 3 "" H 6650 4150 50  0000 C CNN
+	1    6650 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 57F4C1C6
+P 6650 4400
+F 0 "#PWR01" H 6650 4150 50  0001 C CNN
+F 1 "GND" H 6655 4227 50  0000 C CNN
+F 2 "" H 6650 4400 50  0000 C CNN
+F 3 "" H 6650 4400 50  0000 C CNN
+	1    6650 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 3750 5750 3900
+Wire Wire Line
+	5750 3900 7100 3900
+Wire Wire Line
+	6650 3750 6650 4000
+Wire Wire Line
+	7100 3900 7100 3750
+Connection ~ 6650 3900
+Wire Wire Line
+	6950 3750 6950 3900
+Connection ~ 6950 3900
+Wire Wire Line
+	6800 3750 6800 3900
+Connection ~ 6800 3900
+Wire Wire Line
+	6500 3900 6500 3750
+Connection ~ 6500 3900
+Wire Wire Line
+	5900 3750 5900 3900
+Connection ~ 5900 3900
+Wire Wire Line
+	6050 3750 6050 3900
+Connection ~ 6050 3900
+Wire Wire Line
+	6200 3750 6200 3900
+Connection ~ 6200 3900
+Wire Wire Line
+	6350 3750 6350 3900
+Connection ~ 6350 3900
+Wire Wire Line
+	5300 2350 5750 2350
+Wire Wire Line
+	5750 2350 5750 3350
+Wire Wire Line
+	5300 2450 5900 2450
+Wire Wire Line
+	5900 2450 5900 3350
+Wire Wire Line
+	5300 2550 6050 2550
+Wire Wire Line
+	6050 2550 6050 3350
+Wire Wire Line
+	5300 2650 6200 2650
+Wire Wire Line
+	6200 2650 6200 3350
+Wire Wire Line
+	5300 2750 6350 2750
+Wire Wire Line
+	6350 2750 6350 3350
+Wire Wire Line
+	5300 2850 6500 2850
+Wire Wire Line
+	6500 2850 6500 3350
+Wire Wire Line
+	5300 2950 6650 2950
+Wire Wire Line
+	6650 2950 6650 3350
+Wire Wire Line
+	5300 3050 6800 3050
+Wire Wire Line
+	6800 3050 6800 3350
+Wire Wire Line
+	5300 3150 6950 3150
+Wire Wire Line
+	6950 3150 6950 3350
+Wire Wire Line
+	5300 3250 7100 3250
+Wire Wire Line
+	7100 3250 7100 3350
+$Comp
+L GND #PWR02
+U 1 1 57F4CBAE
+P 3650 3350
+F 0 "#PWR02" H 3650 3100 50  0001 C CNN
+F 1 "GND" H 3655 3177 50  0000 C CNN
+F 2 "" H 3650 3350 50  0000 C CNN
+F 3 "" H 3650 3350 50  0000 C CNN
+	1    3650 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 2450 3650 2450
+Wire Wire Line
+	3650 2450 3650 3350
+Wire Wire Line
+	4000 2650 3650 2650
+Connection ~ 3650 2650
+Wire Wire Line
+	2750 2350 4000 2350
+Wire Wire Line
+	2750 2750 2900 2750
+Wire Wire Line
+	2900 1850 2900 2850
+Wire Wire Line
+	1600 1850 3050 1850
+Wire Wire Line
+	1600 1850 1600 2350
+Wire Wire Line
+	1600 2350 1750 2350
+$Comp
+L Battery-RESCUE-x-mas_tree BT1
+U 1 1 57F4D059
+P 950 2500
+F 0 "BT1" H 1068 2546 50  0000 L CNN
+F 1 "Battery" H 1068 2455 50  0000 L CNN
+F 2 "module:cr2032_bat_holder" V 800 2500 50  0000 C CNN
+F 3 "" V 950 2540 50  0000 C CNN
+	1    950  2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 57F4D23C
+P 1450 3000
+F 0 "C2" H 1565 3046 50  0000 L CNN
+F 1 "1000n" H 1565 2955 50  0000 L CNN
+F 2 "w_smd_cap:c_0603" H 1850 2850 50  0000 C CNN
+F 3 "" H 1450 3000 50  0000 C CNN
+	1    1450 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  3300 3650 3300
+Wire Wire Line
+	1450 3300 1450 3150
+Connection ~ 3650 3300
+Wire Wire Line
+	1450 2850 1450 2550
+Wire Wire Line
+	1450 2550 1750 2550
+Wire Wire Line
+	6650 4400 6650 4300
+Wire Wire Line
+	950  1700 950  2350
+Wire Wire Line
+	950  2150 1300 2150
+Wire Wire Line
+	1300 2150 1300 2750
+Wire Wire Line
+	1150 2750 1750 2750
+Wire Wire Line
+	950  2650 950  3300
+Connection ~ 1450 3300
+$Comp
+L R R1
+U 1 1 57F4DABD
+P 3050 2050
+F 0 "R1" H 3120 2096 50  0000 L CNN
+F 1 "680k" H 3120 2005 50  0000 L CNN
+F 2 "w_smd_resistors:r_0603" V 2980 2050 50  0000 C CNN
+F 3 "" H 3050 2050 50  0000 C CNN
+	1    3050 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 1850 3050 1900
+Connection ~ 2900 1850
+Wire Wire Line
+	3050 2200 3050 2550
+Wire Wire Line
+	2750 2550 3300 2550
+$Comp
+L R R2
+U 1 1 57F4DC1E
+P 3300 2050
+F 0 "R2" H 3370 2096 50  0000 L CNN
+F 1 "10k" H 3370 2005 50  0000 L CNN
+F 2 "w_smd_resistors:r_0603" V 3230 2050 50  0000 C CNN
+F 3 "" H 3300 2050 50  0000 C CNN
+	1    3300 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  1700 4050 1700
+Wire Wire Line
+	3300 1700 3300 1900
+Connection ~ 950  2150
+Wire Wire Line
+	3300 2550 3300 2200
+Connection ~ 3050 2550
+Connection ~ 2900 2750
+Wire Wire Line
+	2900 3150 2900 3300
+Connection ~ 2900 3300
+Text Label 950  1950 0    60   ~ 0
+VCC
+$Comp
+L C C4
+U 1 1 57F4DF6C
+P 4050 1850
+F 0 "C4" H 4165 1896 50  0000 L CNN
+F 1 "1000n" H 4165 1805 50  0000 L CNN
+F 2 "w_smd_cap:c_0603" H 4050 1600 50  0000 C CNN
+F 3 "" H 4050 1850 50  0000 C CNN
+	1    4050 1850
+	1    0    0    -1  
+$EndComp
+Connection ~ 3300 1700
+$Comp
+L GND #PWR03
+U 1 1 57F4E065
+P 4050 2100
+F 0 "#PWR03" H 4050 1850 50  0001 C CNN
+F 1 "GND" H 4055 1927 50  0000 C CNN
+F 2 "" H 4050 2100 50  0000 C CNN
+F 3 "" H 4050 2100 50  0000 C CNN
+	1    4050 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 2100 4050 2000
+Text Label 4050 2050 0    60   ~ 0
+VSS
+$Comp
+L C C1
+U 1 1 57F4E136
+P 1150 3000
+F 0 "C1" H 1265 3046 50  0000 L CNN
+F 1 "1000n" H 1265 2955 50  0000 L CNN
+F 2 "w_smd_cap:c_0603" H 850 2850 50  0000 C CNN
+F 3 "" H 1150 3000 50  0000 C CNN
+	1    1150 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 2750 1150 2850
+Connection ~ 1300 2750
+Wire Wire Line
+	1150 3150 1150 3300
+Connection ~ 1150 3300
+$Comp
+L C C3
+U 1 1 57F4E892
+P 2900 3000
+F 0 "C3" H 3015 3046 50  0000 L CNN
+F 1 "1000n" H 3015 2955 50  0000 L CNN
+F 2 "w_smd_cap:c_0603" H 2938 2850 50  0000 C CNN
+F 3 "" H 2900 3000 50  0000 C CNN
+	1    2900 3000
+	1    0    0    -1  
+$EndComp
+Text Label 4050 1700 0    60   ~ 0
+VDD
+$EndSCHEMATC
